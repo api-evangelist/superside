@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: probed
+source: live probes of https://www.superside.com/.well-known/*
+host: https://www.superside.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  Superside publishes no /.well-known discovery surface. A verbatim /llms.txt (HTTP 200)
+  was found and saved to llms/superside-llms.txt.

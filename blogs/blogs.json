@@ -1,0 +1,14 @@
+{
+  "repo": "superside",
+  "feeds": [
+    {
+      "source": "https://help.superside.com/en/",
+      "feed_url": "https://help.superside.com/en/feed.xml",
+      "title": "",
+      "saved": 8,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 8,
+  "fetched": "2026-08-01T15:49:00Z"
+}

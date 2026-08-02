@@ -1,8 +1,16 @@
 aid: superside
 name: Superside
-description: 'Superside is a company surfaced as a portfolio company of prosus-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: saas. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Superside is an always-on, AI-powered creative-as-a-service (CaaS) company that helps
+  enterprises and high-growth brands scale their in-house creative teams with top global
+  talent and industry-leading AI workflows. It delivers graphic and brand design, ad
+  creative and digital campaigns, social media creative, presentation design, illustration,
+  web design and Webflow development, video production and motion graphics, AI-enhanced
+  creative, packaging and print, email design, and 3D/AR design. Superside serves 400+
+  major brands via a subscription and dedicated-team model. The company operates a
+  marketing website and a customer application (app.superside.com) but publishes no public
+  developer API, SDK, or webhook surface; this profile captures its public web, legal, and
+  operational-transparency surface for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/superside/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,29 @@ x-backed-by:
 - prosus-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.superside.com/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Saas
+- Creative Services
+- Design
+- Marketing
+- AI
+- Creative As A Service
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,26 @@ maintainers:
 common:
 - type: Website
   url: https://superside.com
+- type: Pricing
+  url: https://www.superside.com/pricing
+- type: Login
+  url: https://app.superside.com/login
+- type: Support
+  url: https://help.superside.com/en/
+- type: Blog
+  url: https://www.superside.com/blog
+- type: StatusPage
+  url: https://status.superside.com/
+- type: TermsOfService
+  url: https://www.superside.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.superside.com/privacy
+- type: LLMsTxt
+  url: llms/superside-llms.txt
+- type: DomainSecurity
+  url: security/superside-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

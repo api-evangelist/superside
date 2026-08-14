@@ -32,7 +32,7 @@ accessModel:
 image: https://www.superside.com/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-08-13'
 tags:
 - Company
 - Saas
@@ -64,12 +64,66 @@ common:
   url: https://www.superside.com/terms-of-use
 - type: PrivacyPolicy
   url: https://www.superside.com/privacy
+- type: SignUp
+  url: https://app.superside.com/signup
+- type: GitHubOrganization
+  url: https://github.com/superside-oss
+- type: ChangeLog
+  name: Superside product updates
+  url: https://www.superside.com/updates
+- type: ChangeLog
+  name: Superside changelog (captured)
+  url: changelog/superside-changelog.yml
+- type: Security
+  name: Superside Bug Bounty Program Policy
+  url: https://www.superside.com/bug-bounty-program-policy
+- type: VulnerabilityDisclosure
+  url: security/superside-vulnerability-disclosure.yml
+- type: Compliance
+  name: Superside security & compliance (SOC 2 Type II, GDPR, CCPA)
+  url: https://www.superside.com/security
+- type: TrustCenter
+  url: security/superside-trust-center.yml
+- type: Conformance
+  url: conformance/superside-conformance.yml
+- type: Lifecycle
+  url: lifecycle/superside-lifecycle.yml
+- type: Plans
+  url: plans/superside-plans-pricing.yml
+- type: Packages
+  url: packages/superside-packages.yml
 - type: LLMsTxt
   url: llms/superside-llms.txt
+- type: LLMsTxt
+  name: Superside Help Center llms.txt
+  url: llms/superside-help-center-llms.txt
 - type: DomainSecurity
   url: security/superside-domain-security.yml
 x-enrichment:
-  date: '2026-07-21'
+  date: '2026-08-13'
   status: enriched
-  artifacts_added: 3
+  artifacts_added: 8
   pass: local-v1
+x-coverage:
+  state: covered
+  reason: no-machine-readable-spec
+  detail: >-
+    Superside ships no public developer API: its own status page monitors a component named
+    "API" and api.superside.com answers with an AWS API Gateway JSON envelope, but every
+    contract path 404s on that host and the help centre documents only UI-configured
+    connectors (Slack, Asana, Wrike, monday.com, Jira, MS Teams) with no keys, endpoints or
+    webhooks. The pass still completed with real searched artifacts — bug bounty policy,
+    SOC 2 Type II posture, dated changelog, published plan minimums, first-party npm/GitHub
+    packages and two verbatim llms.txt files.
+  evidence:
+  - url: https://api.superside.com/openapi.json
+    status: 404
+  - url: https://api.superside.com/graphql
+    status: 404
+  - url: https://www.superside.com/.well-known/agent-card.json
+    status: 404
+  - url: https://help.superside.com/en/collections/19582330-integrations
+    status: 200
+  - url: https://status.superside.com/api/v2/summary.json
+    status: 200
+  checked: '2026-08-13'

@@ -1,0 +1,60 @@
+generated: '2026-08-13'
+method: searched
+probe: true
+source: https://www.superside.com/security
+url: https://www.superside.com/security
+kind: security-and-compliance-page
+kind_note: >-
+  Superside runs no dedicated trust portal — trust.superside.com and security.superside.com
+  do not resolve (curl exit 6, DNS failure), and /trust and /compliance both 404. The
+  public security posture is published as a single marketing-site page at /security, which
+  names the attestations below and links the bug-bounty policy. Recorded as the trust
+  surface because it carries named, dated certifications, not because it is a portal.
+certifications:
+- name: SOC 2 Type II
+  status: attested
+  cadence: annual
+  auditor: third-party (not named on the page)
+  monitoring: Drata (continuous control monitoring)
+  evidence_text: >-
+    "Superside completes a SOC 2 Type II audit annually, performed by a trusted third
+    party, with continuous control monitoring through Drata."
+- name: GDPR
+  status: compliance-claimed
+  evidence_text: >-
+    "Superside complies with applicable data protection and privacy laws, including the
+    GDPR and the CCPA."
+- name: CCPA
+  status: compliance-claimed
+  evidence_text: >-
+    "Superside complies with applicable data protection and privacy laws, including the
+    GDPR and the CCPA."
+not_claimed:
+- ISO 27001
+- HIPAA
+- PCI DSS
+- FedRAMP
+- CSA STAR
+not_claimed_note: >-
+  Searched the /security page and the legal/privacy surface; none of these appear. Recorded
+  as measured absence, not as a failure.
+programs:
+- incident response plan
+- bug bounty program
+report_access:
+  soc2_report: request-only
+  note: >-
+    No self-serve document room (no Drata Trust Center / Vanta / SafeBase instance found);
+    the SOC 2 Type II report is not downloadable from the public page.
+evidence:
+- source: https://www.superside.com/security
+  http_status: 200
+  keywords: [soc 2 type ii, drata, gdpr, ccpa, incident response plan, bug bounty]
+- source: https://trust.superside.com/
+  http_status: 000
+  note: DNS does not resolve.
+- source: https://www.superside.com/trust
+  http_status: 404
+- source: https://www.superside.com/compliance
+  http_status: 404
+fetched: '2026-08-13'

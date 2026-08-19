@@ -1,0 +1,76 @@
+generated: '2026-08-13'
+method: searched
+source: >-
+  https://status.superside.com/ (+ its Atlassian Statuspage JSON API),
+  https://www.superside.com/updates, https://www.superside.com/terms-of-use
+api_lifecycle_applicable: false
+api_lifecycle_note: >-
+  Superside ships no public API, so there is no API versioning scheme, no deprecation
+  policy, no Sunset/Deprecation header support (RFC 8594) and no deprecated operations to
+  derive. Those fields are recorded as not-applicable rather than false. What Superside
+  does run is a real operational-transparency surface — a public status page with a
+  machine-readable JSON API, and a dated product changelog.
+versioning:
+  scheme: none
+  applicable: false
+  note: Product changes are announced by month on /updates; there is no versioned contract.
+deprecation:
+  policy_url: null
+  sunset_header: false
+  applicable: false
+  note: >-
+    No deprecation policy found on the marketing site, the help centre or the terms of use.
+    No `Deprecation` pointer is emitted.
+sla:
+  url: null
+  uptime_target: null
+  note: >-
+    No public uptime SLA. The terms of use are a services agreement for creative work, not
+    a platform SLA; enterprise SLAs, if any, are contractual and not published.
+status_page: https://status.superside.com/
+status_page_platform: Atlassian Statuspage
+status_page_id: 79w8ltl9ljty
+status_page_machine_readable:
+- url: https://status.superside.com/api/v2/summary.json
+  status: 200
+  description: Full page summary — status indicator, components, incidents, maintenances.
+- url: https://status.superside.com/api/v2/status.json
+  status: 200
+  description: Current overall indicator only.
+- url: https://status.superside.com/api/v2/components.json
+  status: 200
+  description: Per-component status.
+- url: https://status.superside.com/api/v2/incidents.json
+  status: 200
+  description: Incident history.
+- url: https://status.superside.com/api/v2/scheduled-maintenances.json
+  status: 200
+  description: Scheduled maintenance windows.
+status_page_note: >-
+  These endpoints are unauthenticated and return Superside's own operational data from
+  Superside's own subdomain, but the CONTRACT is Atlassian's standard Statuspage v2 API,
+  not something Superside authored. They are recorded here as an operational surface and
+  are deliberately NOT registered as a Superside API in apis[] — doing so would credit
+  Superside with an API it did not ship.
+status_components:
+- API
+- Internal
+- Superspace
+status_components_note: >-
+  Superside monitors a component literally named "API". This is corroborating evidence that
+  an API exists behind app.superside.com (api.superside.com answers with an AWS API Gateway
+  `{"message":"Not Found"}` JSON envelope), but it is an internal/first-party-app API with
+  no public documentation, no published contract and no developer access.
+changelog: https://www.superside.com/updates
+changelog_artifact: changelog/superside-changelog.yml
+deprecated_operations: []
+evidence:
+- url: https://status.superside.com/
+  http_status: 200
+- url: https://status.superside.com/api/v2/summary.json
+  http_status: 200
+- url: https://www.superside.com/updates
+  http_status: 200
+- url: https://api.superside.com/
+  http_status: 404
+fetched: '2026-08-13'

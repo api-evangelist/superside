@@ -1,18 +1,91 @@
-generated: '2026-07-21'
+generated: '2026-08-13'
 method: probed
-source: live probes of https://www.superside.com/.well-known/*
-host: https://www.superside.com
+source: live probes of /.well-known/* across every Superside host
+hosts_probed:
+- https://www.superside.com
+- https://superside.com
+- https://app.superside.com
+- https://api.superside.com
+- https://help.superside.com
+- https://status.superside.com
 documents:
-- path: /.well-known/security.txt
+- host: https://www.superside.com
+  path: /.well-known/security.txt
   status: 404
-- path: /.well-known/openid-configuration
+- host: https://www.superside.com
+  path: /.well-known/openid-configuration
   status: 404
-- path: /.well-known/oauth-authorization-server
+- host: https://www.superside.com
+  path: /.well-known/oauth-authorization-server
   status: 404
-- path: /.well-known/api-catalog
+- host: https://www.superside.com
+  path: /.well-known/api-catalog
   status: 404
-- path: /.well-known/ai-plugin.json
+- host: https://www.superside.com
+  path: /.well-known/ai-plugin.json
   status: 404
+- host: https://www.superside.com
+  path: /.well-known/agent-card.json
+  status: 404
+- host: https://www.superside.com
+  path: /.well-known/agent.json
+  status: 404
+- host: https://api.superside.com
+  path: /.well-known/security.txt
+  status: 404
+- host: https://api.superside.com
+  path: /.well-known/oauth-authorization-server
+  status: 404
+- host: https://api.superside.com
+  path: /.well-known/openid-configuration
+  status: 404
+- host: https://api.superside.com
+  path: /.well-known/agent-card.json
+  status: 404
+- host: https://api.superside.com
+  path: /.well-known/agent.json
+  status: 404
+- host: https://app.superside.com
+  path: /.well-known/security.txt
+  status: 200
+  document: false
+  note: >-
+    NOT A DOCUMENT. app.superside.com is a single-page app whose catch-all answers HTTP 200
+    with the same `<!doctype html>` shell for EVERY /.well-known/* path probed
+    (security.txt, api-catalog, agent-card.json, agent.json, llms.txt, openapi.json).
+    Recorded as a miss.
+- host: https://app.superside.com
+  path: /.well-known/agent-card.json
+  status: 200
+  document: false
+  note: SPA catch-all HTML shell — same false-positive as above. Recorded as a miss.
+- host: https://help.superside.com
+  path: /.well-known/security.txt
+  status: 200
+  document: true
+  first_party: false
+  file: superside-help-center-intercom-security.txt
+  note: >-
+    A REAL RFC 9116 document, but it is INTERCOM'S, not Superside's. help.superside.com is
+    an Intercom-hosted help center; the file declares
+    `Canonical: https://app.intercom.com/.well-known/security.txt`, `Contact:
+    https://bugcrowd.com/intercom` and `mailto:security@intercom.com`. Saved verbatim as
+    evidence only. It does NOT establish a Superside security.txt, so no `SecurityTxt`
+    pointer is emitted. Superside's own vulnerability disclosure program lives at
+    https://www.superside.com/bug-bounty-program-policy and is captured in
+    security/superside-vulnerability-disclosure.yml.
+- host: https://help.superside.com
+  path: /.well-known/agent-card.json
+  status: 404
+- host: https://help.superside.com
+  path: /.well-known/agent.json
+  status: 404
+summary:
+  first_party_documents: 0
+  well_known_pointer_emitted: false
 notes: >-
-  Superside publishes no /.well-known discovery surface. A verbatim /llms.txt (HTTP 200)
-  was found and saved to llms/superside-llms.txt.
+  Superside serves NO first-party /.well-known discovery surface on any host. Per the
+  pipeline rule, no `WellKnown` and no `SecurityTxt` pointer is wired into apis.yml — this
+  file records a measured absence, not a presence. The only 200s were an SPA catch-all
+  (not a document) and a vendor-published Intercom security.txt on the help-center
+  subdomain.

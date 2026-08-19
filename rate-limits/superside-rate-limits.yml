@@ -1,0 +1,30 @@
+generated: '2026-08-13'
+method: searched
+source: >-
+  https://help.superside.com/ (full llms.txt article index), https://www.superside.com/llm-info,
+  https://help.superside.com/en/collections/19582330-integrations, plus live probes of
+  api.superside.com and status.superside.com
+limits: []
+limit_count: 0
+headers: []
+exhaustion_status: null
+note: >-
+  Superside publishes no rate limits because it publishes no public API. Every documented
+  integration (Slack, Asana, Wrike, monday.com, Jira, MS Teams) is a first-party connector
+  configured from the Superspace UI, not a developer-callable surface, and the help centre
+  documents no keys, quotas or throttling. api.superside.com is a private AWS API Gateway
+  that answers `{"message":"Not Found"}` on every probed path, so no live headers could be
+  observed either.
+  NO `RateLimits` POINTER IS WIRED INTO apis.yml. This file records a measured zero; wiring
+  the pointer would credit Superside with a rate-limit signal it does not publish.
+observed:
+- url: https://api.superside.com/
+  http_status: 404
+  rate_limit_headers: none
+- url: https://status.superside.com/api/v2/summary.json
+  http_status: 200
+  rate_limit_headers: none
+  note: >-
+    Atlassian Statuspage endpoint on a Superside subdomain; returned no X-RateLimit-* or
+    RateLimit-* headers on an anonymous GET.
+fetched: '2026-08-13'

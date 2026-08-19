@@ -1,0 +1,87 @@
+generated: '2026-08-13'
+method: searched
+source: https://www.superside.com/pricing
+currency: USD
+model: subscription
+model_note: >-
+  Superside sells creative capacity, not API calls. Pricing is a monthly subscription with
+  an annual or 12-month commitment plus a flat platform software fee; there is no
+  per-request, per-seat or metered API pricing because there is no public API. Published
+  figures are stated MINIMUMS — final pricing is quoted by sales.
+public_pricing: partial
+public_pricing_note: >-
+  Entry minimums for two plans are published as numbers on the pricing page; the remaining
+  offerings are contact-sales only.
+platform_fee:
+  name: Software fee
+  price: 1000
+  currency: USD
+  period: month
+  applies_to: [flex, dedicated-ai-native-team]
+  includes: >-
+    Superspace platform access including Brand Brain, Agents, Core Workspace, in-platform
+    image generation, standard plugins and integrations, a Superads Pro subscription, and
+    AI generation costs on standard projects.
+plans:
+- name: Flex
+  slug: flex
+  price: 15000
+  price_qualifier: starts at / monthly minimum
+  currency: USD
+  period: month
+  commitment: annual
+  included: >-
+    A consistent senior creative team that flexes with workload, with access to the full
+    creative bench — creative production, strategy, project management, specialist services
+    and AI tools.
+  rollover: Unused budget rolls over for up to three months.
+  overage: >-
+    Additional work available at standard rates; Project Boosters for large campaigns start
+    at a $15,000 minimum.
+  best_for: Varied, month-to-month demand.
+  api_quota: null
+- name: Dedicated AI-Native Team
+  slug: dedicated-ai-native-team
+  price: 30000
+  price_qualifier: starts at
+  currency: USD
+  period: month
+  commitment: 12-month term
+  included: >-
+    The same senior creatives every month with custom AI brand models; often includes some
+    Flex budget for overflow work.
+  best_for: Steady, predictable demand.
+  api_quota: null
+- name: High-Impact Projects
+  slug: high-impact-projects
+  price: null
+  price_qualifier: contact sales
+  currency: USD
+  period: project
+  commitment: fixed-scope, fixed-timeline
+  included: One-time, high-stakes fixed-scope engagements.
+  api_quota: null
+- name: Exploratory Project
+  slug: exploratory-project
+  price: null
+  price_qualifier: contact sales
+  currency: USD
+  period: project
+  commitment: none
+  included: >-
+    A trial engagement to evaluate Superside before committing to a subscription.
+  api_quota: null
+plan_count: 4
+free_tier: false
+trial: false
+trial_note: >-
+  No free tier and no self-serve trial. The closest thing is the paid Exploratory Project.
+  Sign-up at app.superside.com/signup does not grant self-serve access to a paid plan.
+developer_pricing: false
+developer_pricing_note: >-
+  No API pricing, no rate-limit tiers, no per-call metering — nothing developer-facing is
+  priced because nothing developer-facing is sold.
+evidence:
+- url: https://www.superside.com/pricing
+  http_status: 200
+fetched: '2026-08-13'

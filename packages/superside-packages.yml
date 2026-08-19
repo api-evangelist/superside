@@ -1,0 +1,108 @@
+generated: '2026-08-13'
+method: searched
+source: >-
+  npm registry search + registry.npmjs.org metadata endpoints, github.com/superside-oss,
+  github.com/Superside. Probed pypi.org, rubygems.org, crates.io for a "superside" package
+  (all 404 / absent).
+note: >-
+  Superside publishes NO API client library, because Superside publishes no public API.
+  The packages below are first-party OPEN SOURCE TOOLING released by the company's
+  engineering org (a Sanity Studio plugin, a Partytown/GTM plugin, an Unleash Gradle
+  codegen plugin) plus one employee-published agent-skills CLI. None of them is an SDK for
+  a Superside API, so this artifact deliberately carries NO `SDKs` pointer in apis.yml —
+  emitting one would credit Superside with client libraries for an API that does not exist.
+ownership:
+  github_org: https://github.com/superside-oss
+  github_org_evidence: >-
+    GitHub org `superside-oss` resolves to name "Superside" with blog http://www.superside.com;
+    the npm scope @superside-oss matches its repositories one-for-one.
+  second_org: https://github.com/Superside
+  second_org_note: >-
+    The `Superside` org (created 2021-09-08) holds a single public repo,
+    comfyui-superside-nodes, with no registry distribution.
+packages:
+- language: typescript
+  registry: npm
+  name: "@superside-oss/sanity-plugin-copy-paste"
+  url: https://www.npmjs.com/package/@superside-oss/sanity-plugin-copy-paste
+  install: npm install @superside-oss/sanity-plugin-copy-paste
+  repository: https://github.com/superside-oss/sanity-copy-paste
+  official: true
+  api_client: false
+  version: 1.0.3
+  published: '2023-06-06'
+  note: Sanity Studio v3 copy/paste plugin. Last published 2023-06-06; dormant.
+- language: typescript
+  registry: npm
+  name: "@superside-oss/partytown-gtm"
+  url: https://www.npmjs.com/package/@superside-oss/partytown-gtm
+  install: npm install @superside-oss/partytown-gtm
+  repository: https://github.com/superside-oss/partytown-gtm-plugin
+  official: true
+  api_client: false
+  version: 1.0.0-alpha.12
+  published: '2023-09-04'
+  note: >-
+    Partytown Google Tag Manager plugin, still on an alpha tag. Last published
+    2023-09-04; dormant.
+- language: kotlin
+  registry: none
+  name: unleash-codegen-gradle-plugin
+  url: https://github.com/superside-oss/unleash-codegen-gradle-plugin
+  official: true
+  api_client: false
+  version: null
+  published: null
+  note: >-
+    Source-only. Not found on Maven Central or the Gradle Plugin Portal under a Superside
+    coordinate, so there is no registry metadata endpoint to read a version from. Last
+    repository push 2024-03-04.
+- language: python
+  registry: none
+  name: comfyui-superside-nodes
+  url: https://github.com/Superside/comfyui-superside-nodes
+  official: true
+  api_client: false
+  version: null
+  published: null
+  note: >-
+    ComfyUI library nodes for Superside projects. Distributed as a git repo only (the
+    ComfyUI custom-node convention); no PyPI package exists, so there is no version
+    metadata to record. Last repository push 2026-08-04.
+- language: javascript
+  registry: npm
+  name: superside-skills
+  url: https://www.npmjs.com/package/superside-skills
+  install: npx superside-skills add
+  repository: https://github.com/miguel-leca-superside/superside-skills-cli
+  official: false
+  api_client: false
+  version: 1.5.20
+  published: '2026-07-27'
+  note: >-
+    "Superside's CLI for installing internal agent skills from the company registry (fork
+    of vercel-labs/skills)". Published from an individual employee npm account
+    (migueljsleca) with the repo under a personal GitHub namespace, not the superside-oss
+    org, so it is recorded official:false. The skills registry it installs from is a
+    PRIVATE GitHub repo reached through `gh auth login`, so this is an internal-employee
+    tool published publicly, not a customer-facing developer CLI. No `CLI` pointer is
+    emitted for it.
+not_found:
+  - registry: pypi
+    query: superside
+    status: 404
+  - registry: rubygems
+    query: superside
+    status: 404
+  - registry: crates.io
+    query: superside
+    status: 403
+  - registry: npm
+    query: "@superside/s3-batch-upload"
+    status: 200
+    excluded_reason: >-
+      Present on npm under an @superside scope but its repository is
+      github.com/mediamonks/s3-batch-upload and its homepage is mediamonks.com — it is a
+      MediaMonks package, not a Superside one. Excluded on the ownership check.
+package_count: 5
+official_api_clients: 0

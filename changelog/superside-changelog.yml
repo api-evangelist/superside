@@ -1,0 +1,133 @@
+generated: '2026-08-13'
+method: searched
+source: https://www.superside.com/updates
+title: Superside product updates
+scheme: calendar
+scheme_note: >-
+  Entries are dated by MONTH AND YEAR only (e.g. "MARCH 2026") with no day and no version
+  number. Each entry is labelled by change type — PRODUCT UPDATE, NEW FEATURE, NEW SERVICE,
+  NEW INTEGRATION, IMPROVEMENT, SERVICE EXPANSION — rather than by semver. There is no
+  breaking-change notation because there is no public contract to break.
+current_version: null
+breaking_change_notation: false
+feed: null
+feed_note: No RSS/Atom/JSON feed is published for the updates page.
+window: '2024-04 through 2026-03 (most recent 24 entries on the page; captured window below is the recent slice)'
+entries:
+- date: '2026-03'
+  type: product-update
+  title: The new Superspace with Brand Brain
+  breaking: false
+  highlights: >-
+    Redesigned Superspace with more intuitive navigation and built-in brand knowledge
+    (Brand Brain) so projects carry brand context automatically.
+- date: '2026-02'
+  type: new-feature
+  title: Project Plan view
+  breaking: false
+  highlights: >-
+    Brief, estimate, timeline and milestones consolidated into a single tracking view.
+- date: '2026-01'
+  type: new-feature
+  title: Account Analytics Dashboard
+  breaking: false
+  highlights: A Superspace view for managing usage and planning spend.
+- date: '2025-10'
+  type: new-feature
+  title: Meet your creative team
+  breaking: false
+  highlights: The assigned Superside team is now visible inside Superspace.
+- date: '2025-09'
+  type: new-feature
+  title: Granular Budget Control for Every Team
+  breaking: false
+  highlights: >-
+    Per-team budgets, real-time spend tracking, monthly budgets with rollover and
+    team-level caps.
+- date: '2025-09'
+  type: product-update
+  title: More September Updates
+  breaking: false
+  highlights: Collaboration and speed improvements bundled as a monthly roll-up.
+- date: '2025-04'
+  type: new-service
+  title: Custom AI Image Models
+  breaking: false
+  highlights: Brand-specific AI image models trained on the customer's own assets.
+- date: '2025-04'
+  type: new-feature
+  title: Team and Budget Management
+  breaking: false
+  highlights: Create teams, assign dedicated budgets, enhanced reporting in Superspace.
+- date: '2025-04'
+  type: new-service
+  title: AI-Powered Translation & Localization
+  breaking: false
+  highlights: >-
+    AI translation and localization built on Smartcat, blending machine speed with
+    professional linguists.
+- date: '2025-02'
+  type: new-service
+  title: New Email Services — modular, on-brand email design
+  breaking: false
+  highlights: Reusable modular email component system for unlimited on-brand templates.
+- date: '2025-01'
+  type: new-integration
+  title: 'New Integration: Monday.com'
+  breaking: false
+  highlights: >-
+    New items on a monday.com board create a Superspace project; comments stay synchronized
+    across both platforms.
+- date: '2025-01'
+  type: new-integration
+  title: 'New Integration: Wrike'
+  breaking: false
+  highlights: >-
+    Work items created in Wrike workspaces trigger a new Superspace project.
+- date: '2024-12'
+  type: improvement
+  title: Collections leveled up
+  breaking: false
+  highlights: Easier organizing, searching and sharing of projects and assets in Superspace.
+- date: '2024-07'
+  type: improvement
+  title: Collab Simplification For Larger Initiatives
+  breaking: false
+  highlights: Multi-workstream initiatives run from a single project and chat.
+- date: '2024-06'
+  type: improvement
+  title: The Super Catalog (new briefing shopfront)
+  breaking: false
+  highlights: Revamped briefing experience covering the full service catalogue.
+- date: '2024-06'
+  type: improvement
+  title: Digital Asset Management (DAM)
+  breaking: false
+  highlights: Central asset store with workflow integration.
+- date: '2024-05'
+  type: new-feature
+  title: Jira Integration
+  breaking: false
+  highlights: One-click project submission and team chat from within Jira.
+- date: '2024-05'
+  type: new-feature
+  title: Asana — Superside Chat
+  breaking: false
+  highlights: Chat with the Superside team inside Asana comments.
+- date: '2024-05'
+  type: new-feature
+  title: MS Teams Connect
+  breaking: false
+  highlights: Chat with the Superside account team from Microsoft Teams.
+- date: '2024-04'
+  type: improvement
+  title: AI Preference Management (Team and Project Level)
+  breaking: false
+  highlights: >-
+    Customers can turn AI usage on or off by default or per project.
+entry_count: 20
+latest_entry: '2026-03'
+staleness_note: >-
+  The most recent published entry is MARCH 2026 — roughly five months stale as of this
+  capture (2026-08-13), even though the help centre has articles dated July 2026 (Brand
+  Brain briefs, AI agents, Superads). The marketing changelog lags the product.

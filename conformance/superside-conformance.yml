@@ -1,0 +1,86 @@
+generated: '2026-08-13'
+method: searched
+source: >-
+  https://www.superside.com/security, https://www.superside.com/bug-bounty-program-policy,
+  https://www.superside.com/privacy, plus live protocol probes of every Superside host
+scope_note: >-
+  Superside publishes no public API, so the API-shaped standards below are all recorded as
+  NOT APPLICABLE rather than as failures — there is no contract against which OAuth, OIDC,
+  RFC 9457, pagination or idempotency conformance could be asserted. What Superside does
+  publish is a corporate security-and-privacy compliance posture, and that is what carries
+  real evidence here.
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: >-
+    /security states an annual SOC 2 Type II audit by a third-party auditor with continuous
+    control monitoring via Drata.
+  source: https://www.superside.com/security
+- id: gdpr
+  conforms: true
+  evidence: >-
+    /security states compliance with applicable data protection and privacy laws including
+    the GDPR; a published privacy policy backs it.
+  source: https://www.superside.com/security
+- id: ccpa
+  conforms: true
+  evidence: /security states compliance with the CCPA.
+  source: https://www.superside.com/security
+- id: coordinated-vulnerability-disclosure
+  conforms: true
+  evidence: >-
+    Published bug-bounty policy with named scope, safe harbour, severity-banded rewards and
+    a stated triage SLA; reports to security@superside.com.
+  source: https://www.superside.com/bug-bounty-program-policy
+- id: rfc9116-security-txt
+  conforms: false
+  evidence: >-
+    /.well-known/security.txt returns 404 on superside.com, www.superside.com,
+    api.superside.com. The only 200 is Intercom's own file on the help-center subdomain.
+  source: well-known/superside-well-known.yml
+- id: iso-27001
+  conforms: false
+  evidence: Not claimed anywhere on the public security or legal surface.
+- id: hipaa
+  conforms: false
+  evidence: Not claimed; Superside is a creative-services provider, not a covered entity.
+- id: pci-dss
+  conforms: false
+  evidence: Not claimed on the public surface.
+- id: tls13
+  conforms: true
+  evidence: superside.com negotiates TLSv1.3 with HSTS max-age 63072000.
+  source: security/superside-domain-security.yml
+- id: dnssec
+  conforms: true
+  evidence: DNSSEC is enabled on superside.com.
+  source: security/superside-domain-security.yml
+- id: dmarc
+  conforms: true
+  evidence: DMARC published with policy=quarantine (not reject).
+  source: security/superside-domain-security.yml
+- id: oauth2
+  conforms: null
+  applicable: false
+  evidence: No public API and no published OAuth surface; /.well-known/oauth-authorization-server 404s on every host.
+- id: oidc
+  conforms: null
+  applicable: false
+  evidence: >-
+    /.well-known/openid-configuration 404s on every host. SAML/OIDC SSO is offered to
+    Superspace customers (help-center article "Set up single sign-on (SSO)") but the
+    metadata is not public.
+- id: rfc9457-problem-details
+  conforms: null
+  applicable: false
+  evidence: No public API contract to evaluate.
+- id: openapi
+  conforms: null
+  applicable: false
+  evidence: No OpenAPI published at any probed location — see x-coverage in apis.yml.
+- id: asyncapi
+  conforms: null
+  applicable: false
+  evidence: No public event, webhook or streaming surface.
+compliance_published: true
+compliance_url: https://www.superside.com/security

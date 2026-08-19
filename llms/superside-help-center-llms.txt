@@ -1,0 +1,109 @@
+# Superside Help Center
+
+> How can we help you?
+
+## Intro to Superside
+
+- [What is Superside?](https://help.superside.com/en/articles/13257393-what-is-superside.md): Scale your design and creative work with Superside’s subscription-based creative services, combining expert talent, AI tools and a dedicated team.
+- [Superside project workflow](https://help.superside.com/en/articles/13435606-superside-project-workflow.md): An overview of how Superside projects are structured—from brief submission to final delivery—to ensure clarity, speed and creative quality.
+- [Your Superside subscription](https://help.superside.com/en/articles/13435450-your-superside-subscription.md): Everything you need to know about how your Superside subscription works and what it includes.
+- [Your Superside team](https://help.superside.com/en/articles/13257413-your-superside-team.md): Learn about your Superside team, including project managers, creative leads and specialists who deliver consistent, high-quality creative work at scale.
+
+## Get started with Superspace
+
+- [Intro to Superspace](https://help.superside.com/en/articles/13441460-intro-to-superspace.md): Superspace is the centralized platform that powers collaboration with your Superside team. Use it to track projects, communicate in context, review creative assets, and manage budgets.
+- [Add brand assets to your Superspace account](https://help.superside.com/en/articles/13482329-add-brand-assets-to-your-superspace-account.md): Learn how to add brand assets in Superspace.
+- [Manage brand assets](https://help.superside.com/en/articles/13482344-manage-brand-assets.md): Learn how to organize and maintain your brand assets by creating folders, moving files, renaming or deleting items, and using filters to quickly find what you need.
+- [Superspace user roles](https://help.superside.com/en/articles/13436624-superspace-user-roles.md): An overview of user roles in Superspace and what each role can access and manage.
+- [Invite members to your Superspace account](https://help.superside.com/en/articles/13436634-invite-members-to-your-superspace-account.md): A guide to inviting new users to your Superspace account so they can join projects, access tasks and collaborate from day one.
+- [Manage account members](https://help.superside.com/en/articles/13460909-manage-account-members.md): Control user access by assigning roles, managing team membership, removing users and resending pending invites.
+- [Manage access to your Superspace account](https://help.superside.com/en/articles/14045285-manage-access-to-your-superspace-account.md): Learn how admins can configure account access to control who can join your organization.
+- [Request access to an account](https://help.superside.com/en/articles/14045412-request-access-to-an-account.md): Learn how to request access to your organization's Superspace account.
+- [Superspace notifications](https://help.superside.com/en/articles/13686259-superspace-notifications.md): Get notified about important updates, messages and project activity.
+- [Set up single sign-on \(SSO\)](https://help.superside.com/en/articles/14836991-set-up-single-sign-on-sso.md): Log in to Superspace with your organization’s existing credentials.
+
+## Projects
+
+- [AI on Superside projects](https://help.superside.com/en/articles/13521234-ai-on-superside-projects.md): This article explains how Superside uses AI and how you can control when and where it’s applied.
+- [Submit a brief](https://help.superside.com/en/articles/13257567-submit-a-brief.md): Step-by-step guide to creating a new project in Superspace, submitting a brief and starting work with Superside.
+- [Your project plan](https://help.superside.com/en/articles/13847188-your-project-plan.md): The Project plan tab brings your latest brief, timeline, estimate and version history into one place so you can easily track changes over time.
+- [Invite members to a project](https://help.superside.com/en/articles/13463834-invite-members-to-a-project.md): Learn how to add members to an existing Superspace project.
+- [Message your Project Manager](https://help.superside.com/en/articles/13571023-message-your-project-manager.md): Learn how to send messages to your Project Manager \(PM\).
+- [Organize projects with project groups](https://help.superside.com/en/articles/13686293-organize-projects-with-project-groups.md): Project groups help you organize related projects under one umbrella, making navigation simpler and work easier to manage.
+- [Find your project drafts](https://help.superside.com/en/articles/14782130-find-your-project-drafts.md): Learn how to find saved project drafts.
+- [Add resources to a project](https://help.superside.com/en/articles/13460174-add-resources-to-a-project.md): Add project resources after kickoff to share references and supporting materials with the creative team.
+- [View delivered designs](https://help.superside.com/en/articles/13570970-view-delivered-designs.md): Review delivered designs after kickoff.
+- [Share project assets](https://help.superside.com/en/articles/13608902-share-project-assets.md): Learn how to access and share project assets with your team or external collaborators.
+- [Review your assets and add comments](https://help.superside.com/en/articles/13482226-review-your-assets-and-add-comments.md): Learn how to provide feedback on your assets using different types of comments.
+- [Add comments to video assets](https://help.superside.com/en/articles/13833577-add-comments-to-video-assets.md): Collaborate effectively by leaving clear, contextual feedback directly on your video assets.
+- [Approve your project assets](https://help.superside.com/en/articles/13686148-approve-your-project-assets.md): Learn how to approve project assets using Superspace or the chat.
+- [Locate and download project assets](https://help.superside.com/en/articles/14005635-locate-and-download-project-assets.md): Easily find and download assets from your projects in Superspace.
+
+## Teams
+
+- [Create a team](https://help.superside.com/en/articles/13258106-create-a-team.md): Learn how to create and manage teams in Superspace to keep creative work organized, aligned and on budget.
+- [Manage teams](https://help.superside.com/en/articles/13460046-manage-teams.md): Manage teams in Superspace to organize work, control project request approvals, manage team budgets and update team details and invoice notes.
+- [Add members to a team](https://help.superside.com/en/articles/13436603-add-members-to-a-team.md): A guide to adding members to a team in your Superspace account.
+- [Assign a budget to a team](https://help.superside.com/en/articles/13435490-assign-a-budget-to-a-team.md): A guide to assigning a recurring monthly budget to a team in Superspace.
+- [Transfer balance between teams](https://help.superside.com/en/articles/13435464-transfer-balance-between-teams.md): A quick guide to transferring unused budget between teams or projects in Superspace.
+
+## Subscription
+
+- [Superspace account analytics dashboard](https://help.superside.com/en/articles/13257693-superspace-account-analytics-dashboard.md): Get a clear view of creative activity and usage with the Superspace analytics dashboard to plan ahead and make informed decisions.
+- [Review your subscription usage](https://help.superside.com/en/articles/13257623-review-your-subscription-usage.md): Understand how to monitor usage, analyze team budgets and review creative spending with Superspace.
+- [Manage payment details](https://help.superside.com/en/articles/13714542-manage-payment-details.md): Learn how to add or update your payment details in Superspace.
+- [Review and download your invoices](https://help.superside.com/en/articles/14076678-review-and-download-your-invoices.md): Learn how to access and download invoices to keep billing transparent and your finance team aligned.
+- [Manage your subscription usage email settings](https://help.superside.com/en/articles/14688294-manage-your-subscription-usage-email-settings.md): Manage subscription usage emails and choose which balance and activity updates you receive throughout the month.
+- [View your plan and subscription details](https://help.superside.com/en/articles/14816972-view-your-plan-and-subscription-details.md): Learn how to access the Plan page and see your Superside subscription details, services and budget breakdown.
+- [Project Boosters](https://help.superside.com/en/articles/15250871-project-boosters.md): Learn what a Project Booster is, how it works and when to request one to expand your creative capacity for major campaigns or launches.
+- [Dedicated AI-native teams](https://help.superside.com/en/articles/15868360-dedicated-ai-native-teams.md): Dedicated AI-native teams give you the same group of certified creatives every month.
+
+## Superside services
+
+- [Superside services](https://help.superside.com/en/articles/14016004-superside-services.md): Explore Superside services: creative production and development, AI solutions, and strategy and consulting. Browse the full list and related Help Center articles.
+- [Ad creative](https://help.superside.com/en/articles/14018472-ad-creative.md): Discover Superside ad creative services, built for testing and optimized for digital, social, streaming, display, print and OOH campaigns.
+- [Social media creatives](https://help.superside.com/en/articles/14018500-social-media-creatives.md): Learn about Superside social media design services.
+- [Email design](https://help.superside.com/en/articles/14018541-email-design.md): Superside email design services cover the full email pipeline to boost engagement and keep every send on-brand.
+- [Motion design](https://help.superside.com/en/articles/14018751-motion-design.md): Superside motion design services deliver end-to-end animated content for ads, web, products and campaigns across social media, email and events.
+- [Video production](https://help.superside.com/en/articles/14019134-video-production.md): Learn about Superside video production services.
+- [Video project workflow](https://help.superside.com/en/articles/13843140-video-project-workflow.md): A practical guide to how Superside plans, produces and delivers high-impact video—from brief to final cut.
+- [Web design](https://help.superside.com/en/articles/14019278-web-design.md): See how Superside's design-led web services help you build a scalable, on-brand digital experience.
+- [Product design](https://help.superside.com/en/articles/14019320-product-design.md): Superside product design services help you create intuitive, scalable digital experiences, from prototyping and UX improvements to design systems and end-to-end web design.
+- [Print design](https://help.superside.com/en/articles/14019514-print-design.md): Explore the benefits, use cases and workflow of Superside's print design services.
+- [Packaging and merchandise design](https://help.superside.com/en/articles/14019540-packaging-and-merchandise-design.md): Learn more about the benefits, use cases and workflow of Superside's packaging and merchandise design services.
+- [Presentation design](https://help.superside.com/en/articles/14019747-presentation-design.md): Learn about presentation design services at Superside: use cases, automation features, tools and how Superside delivers brand-aligned decks.
+- [Ebook and report design](https://help.superside.com/en/articles/14033644-ebook-and-report-design.md): Learn about Superside ebook and digital report design: platform-compatible layouts that improve readability and engagement across devices.
+- [Copywriting](https://help.superside.com/en/articles/14019778-copywriting.md): Learn about copywriting services at Superside: service types, supported channels and our workflow from onboarding to continuous optimization.
+- [Illustration design](https://help.superside.com/en/articles/14019810-illustration-design.md): Learn about illustration design at Superside: project types, business use cases and our process from briefing to final asset delivery.
+- [Design systems](https://help.superside.com/en/articles/14019851-design-systems.md): Learn about Superside’s design system services, including benefits like improved consistency, reduced rework and faster collaboration, as well as the engagement process from onboarding to handoff.
+- [Brand identity systems](https://help.superside.com/en/articles/14033460-brand-identity-systems.md): Learn about Superside branding services: brand development, design and storytelling to strengthen identity, consistency and audience trust.
+- [AI consulting](https://help.superside.com/en/articles/14211065-ai-consulting.md): Learn how AI consulting helps organizations identify AI opportunities, build team readiness and implement responsible AI solutions.
+- [Superads](https://help.superside.com/en/articles/14753971-superads.md): Learn how Superads helps you analyze paid social creative performance with AI, compare ads across platforms and uncover insights that improve future campaigns.
+- [Superside Brand Models](https://help.superside.com/en/articles/13521261-superside-brand-models.md): Explore Brand Models and learn how they support on-brand image generation, creative alignment, brainstorming and design workflows.
+- [Set up the Superside Brand Models Figma plugin](https://help.superside.com/en/articles/14704020-set-up-the-superside-brand-models-figma-plugin.md): Learn how to set up the Superside Brand Models Figma plugin to use your brand models in Figma and FigJam.
+- [Generate and edit images with the Superside Brand Models plugin in Figma](https://help.superside.com/en/articles/14704477-generate-and-edit-images-with-the-superside-brand-models-plugin-in-figma.md): Learn how to use brand models in Figma and FigJam, edit existing images and refine results.
+
+## Brand Brain & AI agents
+
+- [Intro to Brand Brain](https://help.superside.com/en/articles/13782959-intro-to-brand-brain.md): Superside’s Brand Brain captures and applies your brand’s voice, visual rules, specs and feedback to every brief and creative project, keeping work on-brand from day one while reducing rework and r...
+- [Submit a brief with Brand Brain](https://help.superside.com/en/articles/14014747-submit-a-brief-with-brand-brain.md): Step-by-step guide to creating a new project in Superspace with Brand Brain, submitting a brief and starting work with Superside.
+- [Adjust the detail level of Brand Brain briefs](https://help.superside.com/en/articles/15532948-adjust-the-detail-level-of-brand-brain-briefs.md): Learn how to set Brand Brain to generate concise briefs or more detailed responses by adjusting your brief verbosity level in Personal settings.
+- [Superside AI Agents](https://help.superside.com/en/articles/14192844-superside-ai-agents.md): Learn how AI agents in Superspace help with briefs, asset generation, project insights, onboarding and product guidance.
+- [Get insights with AI agents](https://help.superside.com/en/articles/14192893-get-insights-with-ai-agents.md): Use AI agents in Superspace to understand how Superside works, check project status, find deliverables, review updates and access account details.
+- [Generate on-brand assets in Superspace](https://help.superside.com/en/articles/14193175-generate-on-brand-assets-in-superspace.md): Learn how to use AI agents in Superspace to generate on-brand images.
+- [Create a brand model](https://help.superside.com/en/articles/15956059-create-a-brand-model.md): Turn a set of on-brand images into a reusable brand model, then generate matching photos, illustrations and 3D-style visuals in Superspace.
+- [Brand custodian](https://help.superside.com/en/articles/14942412-brand-custodian.md): Assign a brand custodian in Superspace to manage brand files, questions and consistency.
+
+## Integrations
+
+- [Superside for Slack](https://help.superside.com/en/articles/13257426-superside-for-slack.md): Discover how to set up and use Superside for Slack to connect Superspace with your Slack workspace for seamless creative collaboration and updates.
+- [Set up the Asana integration](https://help.superside.com/en/articles/14754168-set-up-the-asana-integration.md): Set up the Asana integration for Superspace and sync tasks, comments, attachments, subtasks and mentions between Asana and Superspace.
+- [Submit a Superside project from Asana](https://help.superside.com/en/articles/14754191-submit-a-superside-project-from-asana.md): Learn how to submit a Superside project from Asana, track progress and understand how tasks, comments, attachments and due dates sync with Superspace.
+- [Set up the Wrike integration](https://help.superside.com/en/articles/14780193-set-up-the-wrike-integration.md): Set up the Wrike integration for Superspace and sync tasks, comments and attachments between Wrike and Superspace.
+- [Submit a Superside project from Wrike](https://help.superside.com/en/articles/14780494-submit-a-superside-project-from-wrike.md): Learn how to submit a Superside project from Wrike, track progress and understand how tasks, comments, attachments and due dates sync with Superspace.
+- [Set up the monday.com integration](https://help.superside.com/en/articles/14780579-set-up-the-monday-com-integration.md): Set up the monday.com integration for Superspace and sync items, comments and attachments between monday.com and Superspace.
+- [Submit a Superside project from monday.com](https://help.superside.com/en/articles/14780666-submit-a-superside-project-from-monday-com.md): Learn how to submit a Superside project from monday.com, track progress and understand how tasks, comments, attachments and due dates sync with Superspace.
+
+## Product updates
+
+- [Product updates 2026](https://help.superside.com/en/articles/15323627-product-updates-2026.md): See what's new in Superside. All product updates and improvements, listed by release date.

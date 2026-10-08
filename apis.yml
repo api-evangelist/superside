@@ -67,6 +67,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: RateLimits
+  url: rate-limits/superside-rate-limits.yml
 - type: Website
   url: https://superside.com
 - type: Pricing
